@@ -1,21 +1,28 @@
 {
-  "name": "calculator-node",
+  "name": "atividade_ci",
   "version": "1.0.0",
-  "description": "Calculator app using NodeJS",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
   "scripts": {
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcosvfranco/calculator-node-js.git"
+    "url": "git+https://github.com/camilapontani/calculator-node-js.git"
   },
-  "author": "Marcos Franco @marcosvfranco",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/marcosvfranco/calculator-node-js/issues"
+    "url": "https://github.com/camilapontani/calculator-node-js/issues"
   },
-  "homepage": "https://github.com/marcosvfranco/calculator-node-js#readme",
+  "homepage": "https://github.com/camilapontani/calculator-node-js#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
   "devDependencies": {
-    "jest": "^27.5.1"
+    "jest": "^29.5.0"
   }
 }
